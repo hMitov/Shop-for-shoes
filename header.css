@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.name-wrap {
+    background-color: black;
+}
+
+.name-wrap header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.name-wrap header h1 {
+    color: white;
+    font-family: "Agency FB", serif;
+    letter-spacing: 15px;
+    border: 1px solid white;
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.name-wrap input {
+    position: absolute;
+    top: 55px;
+    right: 50px;
+    background-color: orange;
+    color: black;
+    font-size: 17px;
+    padding: 5px;
+}

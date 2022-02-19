@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+input[type="text"] {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size:28px;
+}
+
+#insertButton {
+    font-size: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    position: relative;
+    top: -7px;
+}
+
+h3 {
+    color: red;
+}
+
+#oldBarcode, #newBarcode, #quantity {
+    text-align: center;
+}
+
+#backToMenu {
+    padding: 5px;
+    position: absolute;
+    top: 650px;
+    right: 100px;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 17px;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.newEmployee-wrapper form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+input[type="text"] {
+    margin-bottom: 40px;
+    margin-top: 5px;
+    font-size:28px;
+}
+
+#insertButton {
+    font-size: 25px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+}
+
+h3 {
+    color: red;
+}
+
+.agent-info {
+    display: none;
+    position: absolute;
+    padding: 3px;
+    top: 425px;
+    right: 200px;
+    width: 300px;
+    border: 2px solid red;
+    color: black;
+}
+
+#backToMenu {
+    padding: 5px;
+    position: absolute;
+    top: 650px;
+    right: 100px;
+    background-color: darkmagenta;
+    color: white;
+    font-size: 17px;
+}

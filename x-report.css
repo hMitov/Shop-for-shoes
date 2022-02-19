@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.sell-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chosen-items-container {
+    border: 2px solid black;
+    height: 600px;
+    padding: 0px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.intro {
+    background-color: lightgray;
+}
+
+td, tr {
+    border: 2px solid black;
+}
+
+td {
+    text-align: center;
+    padding: 10px 15px;
+}
